@@ -1,3 +1,4 @@
+
 const personagem = document.querySelectorAll ('.personagem');
 
 personagem.forEach((personagem) => {
