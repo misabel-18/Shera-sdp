@@ -2,7 +2,6 @@ body {
     background-color: rgb(8, 1, 45);
     color: aliceblue;
     font-family: 'Sanchez', serif;
-
 }
 
 body::before {
@@ -65,13 +64,10 @@ body::before {
     width: 123px;
     height: 190px;
     border-bottom: 3px solid #dbc506;
-
-
 }
 
 .lista-de-personagens .personagem.selecionado {
-    box-shadow: 0px 0px 20px 5px #e4ce07 ;
-    
+    box-shadow: 0px 0px 20px 5px #e4ce07 ; 
 }
 
 .personagem-selecionado {
@@ -80,6 +76,7 @@ body::before {
     width: 430px;
     height: 430px;
 }
+
 
 .personagem-selecionado .personagem-grande {
     width: 430px;
@@ -93,10 +90,9 @@ body::before {
     border-bottom: 2px solid #dbc506;
 }
 
-.personagem-selecionado .descricao-personagem {
-    font-size: 2px
-    font-family:'Alegreya', serif;
+.personagem-selecionado .informacoes-personagem p {
+    font-family: Alegreya, serif;
     text-align: center;
-    margin-top: 10px;
-    width: 420px;
+    gap: 15px;
+    font-size: 16px;
 }
