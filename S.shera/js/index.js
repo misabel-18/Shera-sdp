@@ -1,12 +1,10 @@
-
-const personagem = document.querySelectorAll('.personagem');
+const personagem = document.querySelectorAll ('.personagem');
 
 personagem.forEach((personagem) => {
     personagem.addEventListener('mouseenter', () => {
       if(window.innerWidth < 450) {
         window.scrollTo({top: 0, behavior: 'smooth'});
       }
-
 
 const personagemSelecionado = document.querySelector ('.selecionado');
 personagemSelecionado.classList.remove('selecionado')
@@ -16,7 +14,7 @@ personagemSelecionado.classList.remove('selecionado')
 const imagemPersonagemGrande = document.querySelector('.personagem-grande');
 
 const idPersonagem = personagem.attributes.id.value;
-imagemPersonagemGrande.src = `./imagens/shera/${idPersonagem}-grande.png`;
+imagemPersonagemGrande.src = `./S.shera/imagens/shera/${idPersonagem}-grande.png`;
 
 const nomePersonagem = document.getElementById('nome-personagem');
 
@@ -28,5 +26,4 @@ descricaoPersonagem.innerText = personagem.getAttribute('data-descricao')
 
      })
 })
-
 
